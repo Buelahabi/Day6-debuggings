@@ -1,0 +1,213 @@
+<!-- https://medium.com/@reach2arunprakash/guvi-zen-class-find-the-culprits-and-nail-them-9ee6c67c44fb -->
+
+1)  <!-- Find the culprit -->
+<!-- fix.html -->
+
+HTML:
+<!-- <!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( "I’m JavaScript!"); 
+</script>
+ </body>
+</html> -->
+
+
+2)  <!-- Find the culprit and invoke the alert -->
+<!-- fix.html -->
+<!-- <!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html> -->
+
+JS:
+alert("I'm invoked!");
+
+
+
+3) <!-- Explain the below how it works -->
+<!-- explain.html -->
+
+HTML: 
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+JS:
+
+alert("I'm JavaScript!");
+alert("Hello");
+alert("World");
+alert(3 + 1 + 2); 
+<--The above given html document have the script source file which runs the javacript so that it will alert in the window  -->
+
+
+4)  Fix the below to alert Guvi geek
+fix.html
+HTML 
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+JS:
+let admin=9, 
+fname=10.5; 
+fname = "Guvi";
+lname = "geek";
+admin = fname+" "+lname;
+alert( admin ); 
+
+5)  Fix the below to alert hello Guvi geek
+fix.html
+HTML:
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+JS:
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek";
+let name = fname+ "" + lname;
+alert( "hello ${name}" );
+
+6)  Fix the below to alert sum of two numbers
+fix.html
+
+HTML:
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+JS:
+
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(a + b);
+
+
+7)  Change the code to print 1 to 10 in 4 lines
+
+HTML:
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+JS:
+
+let num=1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num +=  1
+console.log(num)
+num +=1
+console.log(num)
+num +=  1
+console.log(num)
+num +=  1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+
+for(i=1;i<11;i++)
+console.log(i);
+
+
+8) Change the code to print even numbers
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+
+//You are allowed to modify only one character 
+for (let num = 2; num <= 20; num += 2) {
+  console.log(num)
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
